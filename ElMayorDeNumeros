@@ -1,0 +1,9 @@
+Proceso Numero_Mayor
+	Definir Numero1,Numero2,Numero3 Como Entero;
+	Numero1 = 0;
+	Numero2 = 0;
+	Numero3 = 0;
+	Escribir "Primer numero"; Leer Numero1;
+	Escribir "Segundo numero"; Leer Numero2;
+	Escribir "Tercer numero"; Leer Numero3;
+    
