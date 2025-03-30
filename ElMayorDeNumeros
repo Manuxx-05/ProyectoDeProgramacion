@@ -6,4 +6,13 @@ Proceso Numero_Mayor
 	Escribir "Primer numero"; Leer Numero1;
 	Escribir "Segundo numero"; Leer Numero2;
 	Escribir "Tercer numero"; Leer Numero3;
-    
+    Si Numero1>Numero2 y Numero1>Numero3 Entonces
+		Escribir " El mayor es  primer numero";
+	SiNo
+		Si Numero2>Numero1 y Numero2>Numero3 Entonces
+			Escribir "el mayor es el segundo numero";
+		SiNo
+			Escribir "El mayor es el tercer numero";
+		Fin Si
+	Fin Si
+FinProceso
